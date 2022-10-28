@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         primary: {
           DEFAULT: "#fd8b4b",
-          dark: "#fd7224"
+          dark: "#fd7224",
+          light: "#fecaac"
         },
         secondary: {
           DEFAULT: "#231d1f"
@@ -14,6 +15,10 @@ module.exports = {
         error: {
           DEFAULT: "#f5222d"
         }
+      },
+      fontFamily: {
+        montserrat: "Montserrat",
+        "open-sans": "Open Sans"
       }
     }
   },

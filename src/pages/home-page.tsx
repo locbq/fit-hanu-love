@@ -1,7 +1,10 @@
+import { Wrapper } from "@components";
+import { Greetings } from "@modules/Home";
+
 export default function HomePage() {
   return (
-    <div>
-      <h1>home page</h1>
-    </div>
+    <Wrapper title="FIT.L♥ve">
+      <Greetings />
+    </Wrapper>
   );
 }
